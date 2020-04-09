@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\login",
+    "\\src\\reducer\\counter",
+    "\\src\\reducer\\dashboard"
+  ],
+  "SelectedNode": "\\src\\components\\Root.tsx",
+  "PreviewInSolutionExplorer": false
+}
