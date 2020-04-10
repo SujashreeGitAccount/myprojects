@@ -2,8 +2,16 @@ import React, { useContext, useState } from 'react';
 import { createContext } from 'react';
 import uuid from 'uuid';
 
-//const defaultlist: { title: string, id: number }[] = [];
-export const TaskListContext = createContext();
+interface IContextProps {
+    tasks: any;
+    addTask: any;
+    removeTask: any;
+    clearList: any;
+    findItem: any;
+    editTask: any;
+    editItem: any;
+}
+export const TaskListContext = createContext({} as IContextProps);
 
 
 const TaskListContextProvider = (props: {children : any} )=> {
@@ -36,7 +44,7 @@ const TaskListContextProvider = (props: {children : any} )=> {
     const findItem = (id: any) => {
         const item = tasks.find(task => task.id === id)
 
-        setEditItem(item)
+        //setEditItem(item)
     };
 
     // Edit task
