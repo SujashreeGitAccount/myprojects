@@ -15,9 +15,12 @@ const TaskListContextProvider = (props: {children : any} )=> {
 	]);
 	const [editItem, setEditItem] = useState(null)
 
+
+    //const uuid = require('uuid');
+    //uuid();
     // Add tasks
     const addTask = (title: any) => {
-        setTasks([...tasks, { title, id: uuid() }])
+        setTasks([...tasks, { title, id: 4 }])
     };
 
     // Remove tasks
