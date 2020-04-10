@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src",
     "\\src\\components",
-    "\\src\\components\\login",
-    "\\src\\reducer\\counter",
-    "\\src\\reducer\\dashboard"
+    "\\src\\context"
   ],
-  "SelectedNode": "\\src\\components\\Root.tsx",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
